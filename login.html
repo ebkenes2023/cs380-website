@@ -23,9 +23,9 @@
     <form>
         <br>
         <form action="demo.php" method="POST" onsubmit="return this.checkValidity()">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" pattern="[a-zA-Z -]{1,50}" required
-                placeholder="Username"><br><br>
+            <label for="loginemail">Email:</label>
+            <input type="text" id="loginemail" name="loginemail" pattern="[a-zA-Z -]{1,50}" required
+                placeholder="Email"><br><br>
 
             <form action="demo.php" method="POST" onsubmit="return this.checkValidity()">
                 <label for="password">Password:</label>
@@ -33,6 +33,7 @@
                     placeholder="Password"><br><br>
 
                 <input class="submit" type="submit" value="Login"><br><br>
+                <a class="submit" href="createAccount.html">Create Account</a>
             </form>
         </form>
     </form>
